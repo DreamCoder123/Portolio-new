@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/education.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/Phone.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .sidenav {
+  height: 100%;
+  width: 00px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:var(--main-color);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+    <header class="header">
+        <div class="name">
+            Mohammad Ashique Usmani
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#edu">Education</a></li>
+        </ul>
+        <div  onclick='openNav()' class="hamberger"><i class="fa-solid fa-bars"></i></div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#edu">Education</a>
+            <a href="#project">Project</a>
+          </div>
+    </header>
+
+    <div id="home" class="home_cont">
+        <div class="details">
+            <h1>Hi, I`am Mohammad Ashique Usmani </h1>
+            <p>Java Backend Developer</p>
+            <p>“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” – Antoine de Saint-Exupery  </p>
+
+            <div class="project_btn">
+                <!-- <a href=""<button>Contact</button> -->
+                <a href="https://drive.google.com/file/d/123Ir7IG12Tl1_PvGIi6fRRORPSZedFkx/view?usp=sharing"><button>Resume</button></a>
+            </div>
+
+            <div class="social">
+                <a href="https://github.com/DreamCoder123"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/ashique-usmani-72133014b">  <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.hackerrank.com/mohammedashique3?hr_r=1"><i class="fa-brands fa-hackerrank"></i></a>
+
+
+            </div>
+        </div>
+        <div class="profile_img">
+            <div>
+                <img
+                    src="./Asset/skills/WhatsApp Image 2022-08-31 at 1.04.45 PM.jpeg">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div id="about" class="about_us">
+        <h2>About me</h2>
+        <div class="main">
+            <div id="about-us-image">
+                <img
+                    src="./Asset/skills/WhatsApp Image 2022-08-31 at 1.04.45 PM.jpeg">
+            </div>
+            <div id="content">
+                <ul>
+                    <li>I'm an aspiring Java Backend Developer, with a specialization in Spring, Spring-Boot, JDBC with
+                        SQL, Hibernate, HTML, CSS, JAVASCRIPT</li>
+                    <li>Confortable with JAVA 8 and above.Since very young age I am very much interested in learning new
+                        things</li>
+                    <li>I spend most of the time with technology. Enthusiastic Person always ready to moving parallel
+                        with technologies. I am ready to work and provide my best to the Organisation.</li>
+                </ul>
+
+
+
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="skill" class="technical_skills">
+        <h1>My <span>Technical Skills</span></h1>
+        <div class="skills_btn">
+            <button onclick="Allskill()">All</button>
+            <button onclick="Frontend()">Frontend</button>
+            <button onclick="Backend()">Backend</button>
+        </div>
+        <div class="All_skills">
+            <div><img src="./Asset/skills/html-5.png"></div>
+            <div><img src="./Asset/skills/css-3.png"></div>
+            <div><img src="./Asset/skills/js.png"></div>
+            <div><img src="./Asset/skills/java.png"></div>
+            <div><img src="./Asset\img\spring.png"></div>
+            <div><img src="Asset\img\sql.png"></div>
+
+        </div>
+        <div class="forntend">
+            <div><img src="./Asset/skills/html-5.png"></div>
+            <div><img src="./Asset/skills/css-3.png"></div>
+            <div><img src="./Asset/skills/js.png"></div>
+        </div>
+        <div class="backend">
+            <div><img src="./Asset/skills/java.png"></div>
+            <div><img src="./Asset\img\spring.png"></div>
+            <div><img src="Asset\img\sql.png"></div>
+            <!-- <div><img src="./Asset/skills/js.png"></div> -->
+            
+
+        </div>
+    </div>
+    <style>
+        #education{
+            margin: 20px 0px;
+        }
+        .education_qualifcatiom{
+            display: grid;
+            grid-template-columns: fr max-content 1fr;
+        }
+        
+    </style>
+
+
+<div id="edu" class="education">
+    <div class="education__heading">
+      <h4>Education</h4>
+    </div>
+    <div class="education__content">
+      <h5>Java Development Program</h5>
+      <span class="year">Current</span>
+      <p>Masai School</p>
+    </div>
+    <div class="education__content">
+      <h5>Bachelor Of Engineering</h5>
+      <span class="year">2020</span>
+      <p>Information & Technology --- Shri Ram Institute Of Technology:- 7.49 CGPA</p>
+    </div>
+    <div class="education__content">
+      <h5>Higher Secondary Education</h5>
+      <span class="year">2016</span>
+      <p>10+2 --- Guru Gobind Singh Khalsa Higher Secondary School:- 58%</p>
+    </div>
+    <div class="education__content">
+      <h5>Higher Education</h5>
+      <span class="year">2014</span>
+      <p>10th --- Guru Gobind Singh Khalsa Higher Secondary School:-  69.16% </p>
+    </div>
+  </div>
+
+   
+    <h1 style="text-align:center;
+    font-family: var(--fontFamily);margin-top: 20px;">My Project</h1>
+    <div id="project" class="projects_cont">
+        <div>
+
+       
+
+        <div class="project">
+            <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                    src="Asset\img\deccanchronicle1.png">
+            </div>
+            <p>This project we have created with my 4 other friends with the help of HTML,CSS and javascript using fetch api's. This is news related website where you can read news about all over the world </p>
+            <div class="project_btn">
+                <a href="https://strong-bienenstitch-7aca79.netlify.app/job.html"><button>Netlify </button></a>
+                <a href="https://github.com/DreamCoder123/deccan-chronicle-website"><button>Github </button></a>
+            </div>
+        </div>
+        <div class="project">
+            <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                    src="Asset\img\theoutnet1.png">
+            </div>
+            <p>This project is a fashion designing website where you can shop any branded fashionable clother, bags and all wearables which we have created with the team of 5 members using html, css and javascript technology </p>
+            <div class="project_btn">
+                <a href="https://funny-churros-0ef475.netlify.app/"><button>Netlify </button></a>
+                <a href="https://github.com/DreamCoder123/the-outnet-clone"><button>Github </button></a>
+            </div>
+        </div>
+        <div class="project">
+            <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                    src="Asset\img\youtubeclone2.png">
+            </div>
+            <p>This is Youtube clone which is daily assignment project which I have made quickly using fetch api calls with the help of html,css and javascript </p>
+            <div class="project_btn">
+                <a href="https://benevolent-fenglisu-23325b.netlify.app/"><button>Netlify </button></a>
+                <a href="https://github.com/masai-course/Mohammad_fp03_028/tree/master/unit-3/sprint-3/day-1/youtube%20clone%202"><button>Github </button></a>
+            </div>
+        </div>
+        <div class="project">
+            <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                    src="Asset\img\Screenshot (1034).png">
+            </div>
+            <p>This is My Old Portfolio Website Which I have created using HTML,CSS and JAVASCRIPT.</p>
+            <div class="project_btn">
+                <a href="https://ashiqueportfolio.netlify.app/"><button>Netlify </button></a>
+                <a href="https://github.com/DreamCoder123/Portfolio-Old"><button>Github </button></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="contactUs">
+        <div class="container">
+            <div class="content">
+              <div class="left-side">
+                <div class="address details">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="topic">Address</div>
+                  <div class="text-one">Jabalpur Madhya Pradesh</div>
+                  <div class="text-two">India</div>
+                </div>
+                <div class="phone details">
+                  <i class="fas fa-phone-alt"></i>
+                  <div class="topic">Phone</div>
+                  <div class="text-one">+91 7805955317</div>
+                  <div class="text-two">+91 9691007417</div>
+                </div>
+                <div class="email details">
+                  <i class="fas fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text-one">mohammedashique127@gmail.com</div>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text">Send us a message</div>
+                <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+              <form action="#">
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="input-box message-box">
+                    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                </div>
+                <div class="button">
+                  <input type="button" value="Send Now" >
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+    </div>
+
+
+    <footer>
+        <h1>JAVA Backend Devloper</h1>
+    </footer>
+
+</body>
+</html>
+<script src="./main.js"></script>
