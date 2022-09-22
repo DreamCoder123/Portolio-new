@@ -19,7 +19,7 @@
     .education__content{
 		position: relative;
 		padding: 1rem 1rem 1rem 4rem;
-		cursor: pointer;
+		/* cursor: pointer; */
 		
 		transition: all 0.3s ease-in-out;
     }
@@ -56,10 +56,10 @@
 		}
 	
 	
-        .education__content:hover{
+        /* .education__content:hover{
 		background-color: hsl(0deg 0% 90% / 48%);
 		border-radius: .25rem;
-	}
+	} */
 	
 	.education__content:not(:last-child):before{
 		position: absolute;

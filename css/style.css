@@ -24,7 +24,7 @@ html{
     display: flex;
 
     justify-content: space-between;
-    height: 50px;
+    height: 70px;
     align-items: center;
     padding: 0px 40px ;
     font-family: var(--fontFamily);
