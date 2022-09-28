@@ -1,5 +1,19 @@
 # Portolio-new
 
+## Tech Stack
+#### HTML
+#### CSS 
+#### JAVASCRIPT
+
+
+## About
+This is My Portfolio Website Which is My solo Project.
+
+## Deploy Link
+Netlify Link 
+https://funny-churros-0ef475.netlify.app/
+
+## How To Use IT
 
 This is My Portfolio Website Using HTML, CSS and JAVASCRIPT TECH 
 
