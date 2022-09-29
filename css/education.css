@@ -2,6 +2,7 @@
 	width: min(800px, 95vw);
     font-family: var(--fontFamily);
     margin: auto;
+	background-color: darkgrey;
 }
 .education h4{
 	text-align: center;
