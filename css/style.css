@@ -218,6 +218,14 @@ html {
   background: #19a78a;
   text-align: center;
 }
+#grid > div>img{
+  width: 100%;
+  /* font-size: 30px; */
+  /* padding: 0.2em; */
+  color: #ffffff;
+  background: #19a78a;
+  text-align: center;
+}
 
 .projects_cont {
   box-sizing: content-box;
