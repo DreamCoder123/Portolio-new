@@ -7,15 +7,13 @@
   --fontFamily: "Poppins", sans-serif;
   --background-color: #e3e3e3;
   --font_color: #f6f6f8;
-  
 }
 
 * {
   margin: 0px;
   padding: 0px;
-  
+  /* width: auto; */
   box-sizing: border-box;
- 
 }
 
 html {
@@ -103,15 +101,15 @@ html {
 }
 
 .profile_img > div {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 80%;
 
   border-radius: 50%;
   margin: auto;
 }
 
 .profile_img > div > img {
-  width: 80%;
+  width: 90%;
   height: 80%;
   margin: auto;
   margin-top: 10%;
@@ -120,7 +118,13 @@ html {
 .social {
   margin-top: 20px;
   font-size: 2em;
+  color: #19a78a;
 }
+.social > a > img {
+  height: 30px;
+  width: 30px;
+}
+
 .social > i {
   transition: all 0.5s ease-in-out;
 }
@@ -162,6 +166,12 @@ html {
     margin: auto;
     margin-top: 20%;
   }
+
+  .projects_cont {
+    width: 90%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 
 /* Small Screens */
@@ -197,19 +207,17 @@ html {
 }
 
 #grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-    grid-gap: 5px;
-  }
-  #grid > div {
-    font-size: 30px;
-    padding: .2em;
-    color: #ffffff;
-    background: #19a78a;
-    text-align: center;
-  }
-
-
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  grid-gap: 5px;
+}
+#grid > div {
+  font-size: 30px;
+  padding: 0.2em;
+  color: #ffffff;
+  background: #19a78a;
+  text-align: center;
+}
 
 .projects_cont {
   box-sizing: content-box;
@@ -219,6 +227,7 @@ html {
   font-family: var(--fontFamily);
   background-color: var(--background-color);
   padding-top: 10px;
+  width: auto;
 }
 .project > p {
   margin-top: 20px;
@@ -285,6 +294,34 @@ html {
   .projects_cont > div {
     grid-template-columns: repeat(1, 1fr);
   }
+  .project {
+    width: 90%;
+  }
+  .name {
+    font-size: small;
+  }
+  .contrib-number {
+    font-size: 1vh;
+  }
+  h2 {
+    font-size: 15px;
+  }
+}
+@media all and(max-width:320px) {
+  .project {
+    width: 90%;
+  }
+}
+@media all and (min-width: 750px) and (max-width: 1125px) {
+  .projects_cont > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (min-width: 450px) and (max-width: 750px) {
+  .projects_cont > div {
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
 }
 
 footer {
@@ -301,4 +338,8 @@ footer > h1 {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+#calender {
+  width: 90% !important;
 }
