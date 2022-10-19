@@ -14,7 +14,7 @@ Netlify Link
 [https://funny-churros-0ef475.netlify.app/](https://ashiqueportfolio1.netlify.app/)
 
 ## How To Use IT
-Just Click On the Above Link 
+Just Click the Above Link 
 
 ![Screenshot (1074)](https://user-images.githubusercontent.com/104290715/189983792-bdf7acc7-ea6e-4b7c-8cc5-89fa624771af.png)
 
