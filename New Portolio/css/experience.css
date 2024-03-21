@@ -1,0 +1,98 @@
+  
+  /* Experience Section with Progress Bar CSS */
+#experience {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+}
+
+#experience .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#experience h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  margin: 0;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+}
+
+#experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+#experience li {
+  margin-bottom: 10px;
+}
+
+/* Progress Bar Styles */
+.progress-container {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  height: 20px;
+  border-radius: 5px;
+  line-height: 20px;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  transition: width 1s ease-in-out;
+}
+
+.progress-date {
+  font-size: 0.8em;
+}
+  
+  /* ... other styles ... */
+
+  /* Responsive styles */
+  @media (max-width: 1000px) {
+    /* Tablet view */
+    #experience .container,
+    .experience-item {
+      padding: 0 15px;
+    }
+
+    .progress-bar {
+      height: 15px; /* Smaller progress bar for tablet */
+    }
+  }
+  @media (max-width: 768px) {
+    /* Tablet view */
+    #experience .container,
+    .experience-item {
+      padding: 0 15px;
+    }
+
+    .progress-bar {
+      height: 25px; /* Smaller progress bar for tablet */
+    }
+  }
+
+  @media (max-width: 480px) {
+    /* Mobile view */
+    #experience .container,
+    .experience-item {
+      padding: 0 10px;
+    }
+
+    .progress-bar {
+      height: 20px; /* Smaller progress bar for mobile */
+    }
+  }

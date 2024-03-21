@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/education.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/experience.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/Phone.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .sidenav {
+  height: 100%;
+  width: 00px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:var(--main-color);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+    <header class="header">
+        <div class="name">
+            Mohammad Ashique Usmani
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div  onclick='openNav()' class="hamberger"><i class="fa-solid fa-bars"></i></div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skill">Skills</a>
+            <a href="#project">My Work</a>
+            <a href="#contact">Contact</a>
+          </div>
+    </header>
+
+    <div id="home" class="home_cont">
+        <div class="details">
+            <h1 class="stylish">Hi, I`am Mohammad Ashique Usmani </h1>
+            <p>Java Backend Developer</p>
+            <p>“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” – Antoine de Saint-Exupery  </p>
+
+            <div class="project_btn">
+                <!-- <a href=""<button>Contact</button> -->
+                <a href="https://drive.google.com/file/d/1nwedgUGcr8XNbuHD0mFLSZjUPM6OxAu3/view?usp=sharing" download><button>Resume</button></a>
+            </div>
+
+            <div class="social">
+                <a href="https://github.com/DreamCoder123"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></img></a>
+                <a href="https://www.linkedin.com/in/ashique-usmani-72133014b"><img src="https://p.kindpng.com/picc/s/32-326233_linkedin-thompson-electric-company-linkedin-logo-bw-png.png"></a>
+                <a href="https://www.hackerrank.com/mohammedashique3?hr_r=1"><img src="https://cdn.iconscout.com/icon/free/png-256/hackerrank-3628233-3031053.png"></a>
+
+
+            </div>
+        </div>
+     
+        <div class="profile_img">
+            <img src="Asset/img/Certificate.jpg" alt="Thumbnail" style="cursor:pointer;" onclick="openFullView(this);">
+         
+            <!-- <div >
+              <img src="Asset/img/Certificate.jpg"></img>
+            </div> -->
+        </div>
+        <div class="full-view" onclick="closeFullView(this)">
+          <img src="" alt="Full View">
+        </div>
+        
+    </div>
+
+
+
+    <div id="about" class="about_us">
+        <h2>About me</h2>
+        <div class="main">
+            <div id="about-us-image">
+                <img
+                    src="Asset\img\new image.jpeg">
+            </div>
+            <div id="content">
+                <ul>
+                    <li>I'm an enthusiastic Java Backend Developer, having 2200 Hour of Coding with more than 1000+ Of DSA submission on different platform during Learning and Have 9+ months of Industrial Experience. </li>
+                    <li>I have a good work experience in Microservice, Docker, JSON, Grafana, MongoDB  these tech stacks and tools including  handsOn experience in Spring, Spring-Boot, Rest Api, JDBC,with
+                      SQL, Hibernate, HTML, CSS, JAVASCRIPT</li>
+                    <li>Confortable with JAVA 8 and above.Since very young age I am very much interested in learning new
+                        things</li>
+                    <li>I spend most of the time with technology. Enthusiastic Person always ready to moving parallel
+                        with technologies. I am ready to work and provide my best to the Organisation.</li>
+                </ul>
+
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+<!-- Experience Section with Progress Bar -->
+<div id="experience">
+  <div class="container">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <h3>Software Consultant(Java Developer) at Encora Inc.</h3>
+      <p class="date">May 2023 - Feb 2024</p>
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 70%;"> <!-- Adjust width as needed -->
+          <span class="progress-date">May 2023 - Feb 2024</span>
+        </div>
+      </div>
+      <h4>Teletracking</h4>
+      <p>In the Department of Health system Teletracking plays a major role in
+        integrating the management of the system seamlessly with ERMs to
+        track the records of patients throughout the journey from admission
+        to discharge.
+        and manage resources in ways that improve care, increase
+        efficiencies,reduce costs, and attract and retain patients.</p>
+      <h4>Roles and Responsibilities</h4>
+      <br>
+      <li>EventSchema Task </li>
+Spearheaded the development and implementation of EventSchema,
+a crucial contract defining interactions between microservices.
+Ensured seamless communication and collaboration between various
+services.
+<br>
+<li>Microservices Development</li>
+
+Contributed significantly to microservices development by actively
+participating in tasks such as adding new features and resolving
+defects. Demonstrated a keen understanding of microservices
+architecture and their role in building scalable and efficient systems.
+<br>
+<li>Configuration Optimization</li>
+Enhanced the efficiency of microservices by optimizing
+configurations. Achieved notable performance improvements by
+strategically adjusting polling rates, thereby minimizing unnecessary
+calls to the database.
+<br>
+<li>Grafana Implementation</li>
+Implemented comprehensive logging and notification systems using
+Grafana. Developed and fine-tuned Grafana dashboards to monitor
+service performance. Established alert mechanisms to promptly
+identify and address service degradation issues.
+<br>
+<li>DockerIntegration</li>
+Played a key role in Dockerizing essential components, including
+RabbitMQ, ESS, and various microservice images. Ensured seamless
+deployment and scalability, contributing to a more robust and
+maintainable infrastructure.
+<li>MongoDB Query Optimization</li>
+Worked on optimizing MongoDB queries to enhance database
+performance.Implemented strategic query modifications,
+contributing to faster response times and improved overall system
+efficiency.
+      <ul>
+        <li>Upcoming...</li>
+      </ul>
+    </div>
+    <!-- Repeat for each experience item -->
+  </div>
+</div>
+
+
+    <div id="skill" class="technical_skills">
+        <h1>My <span>Technical Skills</span></h1>
+        <div class="skills_btn">
+            <button onclick="Allskill()">All</button>
+            <button onclick="Frontend()">Frontend</button>
+            <button onclick="Backend()">Backend</button>
+        </div>
+        <div class="All_skills">
+            <div><img src="./Asset/skills/html-5.png"></div>
+            <div><img src="./Asset/skills/css-3.png"></div>
+            <div><img src="./Asset/skills/js.png"></div>
+            <div><img src="./Asset/skills/java.png"></div>
+            <div><img src="./Asset\img\spring.png"></div>
+            <div><img src="Asset\img\sql.png"></div>
+            <div><img src="Asset\img\grafana.png"></div>
+            <div><img src="Asset\img\mongodb.png"></div>
+            <div><img src="Asset\img\docker.png"></div>
+            <div><img src="Asset\img\kafka.png"></div>
+            <div><img src="Asset\img\kubernetes.png"></div>
+            <div><img src="Asset\img\rabbitmq.png"></div>
+            
+
+        </div>
+        <div class="forntend">
+            <div><img src="./Asset/skills/html-5.png"></div>
+            <div><img src="./Asset/skills/css-3.png"></div>
+            <div><img src="./Asset/skills/js.png"></div>
+        </div>
+        <div class="backend">
+            <div><img src="./Asset/skills/java.png"></div>
+            <div><img src="Asset\img\microservice.jpg"></div>
+            <div><img src="./Asset\img\spring.png"></div>
+            <div><img src="Asset\img\sql.png"></div>
+            <div><img src="Asset\img\grafana.png"></div>
+            <div><img src="Asset\img\mongodb.png"></div>
+            <div><img src="Asset\img\docker.png"></div>
+            <div><img src="Asset\img\kafka.png"></div>
+            <div><img src="Asset\img\kubernetes.png"></div>
+            <div><img src="Asset\img\rabbitmq.png"></div>
+            
+
+        </div>
+    </div>
+    <style>
+        #education{
+            margin: 20px 0px;
+        }
+        .education_qualifcatiom{
+            display: grid;
+            grid-template-columns: fr max-content 1fr;
+        }
+        
+    </style>
+
+
+   
+    <h1 style="text-align:center;
+    font-family: var(--fontFamily);margin-top: 20px;">My Project</h1>
+    <div id="project" class="projects_cont">
+        <div>
+
+          <div class="project">
+            <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                    src="Asset\img\Nursery-Management-Practices.jpg">
+            </div>
+           
+
+            <p>This is a Nursery Plant Management online application where you can buy plants and seeds which was a collaborative project created with 4 other team members in 4 days using Spring boot, MySql and Rest Api.</p>
+            
+            <div id="grid">
+              <div><i class="fa-brands fa-java"></i></i></div>
+              <div><img src="https://img.icons8.com/color/48/000000/my-sql.png"/></div>
+              <div><img src="https://img.icons8.com/material-rounded/24/000000/api-settings.png"/></div>
+            </div>
+          </br>
+            <div class="project_btn">
+                <a href="https://drive.google.com/file/d/1PrBJeLURH-PsFNbqgLa5o1HNJXbCW3Fw/view?usp=sharing" target="_blank"><button>Live </button></a>
+                <a href="https://github.com/Sangram-1996/industrious-steam-9257" target="_blank"><button>Github </button></a>
+            </div>
+        </div>    
+        
+
+        <div class="project">
+            <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                    src="Asset\img\theoutnet1.png">
+            </div>
+           
+
+            <p>This is Collaborated project which is a fashion designing website where you can shop any branded fashionable clother, bags and all wearables which we have created with the team of 6 members and techstack used is mentioned below. </p>
+            
+            <div id="grid">
+              <div><i class="fa-brands fa-html5"></i></div>
+              <div><i class="fa-brands fa-css3"></i></div>
+              <div><i class="fa-brands fa-square-js"></i></div>
+            </div>
+          </br>
+            <div class="project_btn">
+                <a href="https://the-outnet-clone.netlify.app/" target="_blank" ><button>Live </button></a>
+                <a href="https://github.com/DreamCoder123/the-outnet-clone" target="_blank"><button>Github </button></a>
+            </div>
+        </div>
+        <div class="project">
+          <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                  src="Asset\img\deccanchronicle1.png">
+          </div>
+          
+
+          <p>This is Collaborated project which I have created with with the help of 5 other team members using fetch api calls. This is news related website where you can read news about all over the world </p>
+          
+          
+          <div id="grid">
+            <div><i class="fa-brands fa-html5"></i></div>
+            <div><i class="fa-brands fa-css3"></i></div>
+            <div><i class="fa-brands fa-square-js"></i></div>
+          </div>
+        </br>
+          <div class="project_btn">
+              <a href="https://dreamcoder123.github.io/Deccan-Chronicle-live/" target="_blank"><button>Live </button></a>
+              <a href="https://github.com/DreamCoder123/deccan-chronicle-website" target="_blank"><button>Github </button></a>
+          </div>
+          
+      </div>
+
+        <div class="project">
+            <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                    src="Asset\img\Screenshot (1034).png">
+            </div>
+
+           
+            <p>This is My Portfolio Website with I have created from the scratch with the below mentioned technology. If you want to know more about me then you can visit this website by clicking the link below</p>
+            <div id="grid">
+              <div><i class="fa-brands fa-html5"></i></div>
+              <div><i class="fa-brands fa-css3"></i></div>
+              <div><i class="fa-brands fa-square-js"></i></div>
+            </div>
+          </br>
+            
+            
+            <div class="project_btn">
+                <a href="https://ashiqueportfolio.netlify.app/" target="_blank"><button>Live </button></a>
+                <a href="https://github.com/DreamCoder123/Portfolio-Old" target="_blank"><button>Github </button></a>
+            </div>
+        </div>
+
+        <div class="project">
+          <div><img style="display: block;-webkit-user-select: none;max-width: 100%;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                  src="Asset\img\youtubeclone2.png">
+          </div>
+          <p>This is Youtube clone which is daily assignment project which I have made using fetch api calls and time taken to completed this problem is in a day and technology used for this is mentioned below</p>
+          <div id="grid">
+            <div><i class="fa-brands fa-html5"></i></div>
+            <div><i class="fa-brands fa-css3"></i></div>
+            <div><i class="fa-brands fa-square-js"></i></div>
+          </div>
+        </br>
+          <div class="project_btn">
+              <a href="https://benevolent-fenglisu-23325b.netlify.app/" target="_blank"><button>Live </button></a>
+              <a href="https://github.com/masai-course/Mohammad_fp03_028/tree/master/unit-3/sprint-3/day-1/youtube%20clone%202" target="_blank"><button>Github </button></a>
+          </div>
+      </div>
+      
+    </div>
+    </div>
+    <br><br>
+      <h1 style="text-align:center ;"> Github Calender</h1>
+    <script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar" id="calender">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+<script>
+    GitHubCalendar(".calendar #calender", "DreamCoder123");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar ", "DreamCoder123", { responsive: true });
+</script>
+<br>
+<br>
+  <center><h1>Contact Us</h1></center>        
+  <div id="contact">
+    <div id="contactb">
+      <h2>Mohammad Ashique</h2>
+      <div id="grid1">
+        <a href="https://www.linkedin.com/in/ashique-usmani-72133014b"><div>LinkedIn</div></a>
+        <a href="https://github.com/DreamCoder123"><div>Github</div></a>
+        <a href="https://leetcode.com/DreamCoder123/"><div>LeetCode</div></a>
+        <a href="mailto:mohammedashique127@gmail.com"><div>Email</div></a>
+        <a rel="noreferrer" target="_blank" href="tel:+917805955317"><div>Phone</div></a>
+      </div>  
+    </div>
+  </div>
+    
+
+    <footer>
+        <h1>JAVA Backend Devloper</h1>
+    </footer>
+
+</body>
+</html>
+<script src="./main.js"></script>

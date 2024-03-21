@@ -1,0 +1,95 @@
+.technical_skills{
+    text-align: center;
+    font-family: var( --fontFamily);
+    margin-top: 5%;
+    padding: 20px 40px ;
+
+}
+
+.backend,.forntend,.All_skills{
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:10px;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+.forntend img,.backend img,.All_skills img{
+    height:60%;
+    width: 60%;
+    margin: auto;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+.forntend img:hover,.backend img:hover,.All_skills img:hover{
+    transform: scale(1.1);
+}
+
+.forntend>div,.backend>div,.All_skills>div{
+
+   height: 100px;
+   width: 100px;
+   overflow: hidden;
+ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5%;
+   background-color: var( --background-color);
+ 
+   
+}
+
+.skills_btn{
+margin-top: 30px;
+
+}
+.skills_btn>button{
+margin: 2px;
+padding: 10px 15px;
+color: white;
+background-color: var( --main-color);
+border: none;
+font-weight: 600;
+cursor: pointer;
+border-radius: 3px;
+font-size: 1.2em;
+
+}
+.forntend{
+    display: none;
+}
+.backend{
+    display: none;
+}
+
+
+@media all and (min-width:451px) and (max-width:750px) {
+    .backend,.forntend,.All_skills{
+
+        grid-template-columns: repeat(4,1fr);
+        gap:10px;
+    }
+
+}
+
+
+/* Small Screens */
+@media all and (min-width:100px) and (max-width:450px) {
+    .backend,.forntend,.All_skills{
+       
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+    }
+       
+}
+@media all and (min-width:100px)and (max-width:320px){
+    .backend,.forntend,.All_skills{
+        grid-template-columns: repeat(2,1fr);
+        gap:10px;
+    }    
+  }

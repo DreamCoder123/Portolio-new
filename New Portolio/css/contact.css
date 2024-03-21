@@ -1,0 +1,43 @@
+*{
+  font-family: poppins;
+}
+#contact{
+  /* width: 90%; */
+  height: 500px;
+  background-color: #e3e3e3;;
+  /* margin: auto; */
+  /* margin-top: 50px; */
+  text-align: center;
+  display: flex;
+
+}
+#contactb{
+  width: 60%;
+  margin: auto;
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 13px;
+  padding: 15px;
+  
+}
+
+#grid1{
+  margin-top: 30px;
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    grid-gap:30px;
+    
+}
+h2{
+  font-size: 2vw;
+}
+#grid1 >a> div {
+  font-size: 2vw;
+  padding: .70em 3em .70em ;
+  color: #ffffff;
+  background: #19a78a;
+  text-align: center;
+}
+#grid1 >a{
+  text-decoration: none;
+}
