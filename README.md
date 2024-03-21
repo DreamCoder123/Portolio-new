@@ -10,7 +10,7 @@ This is My Portfolio Website Which is My solo Project.
 
 ## Deploy Link
 Netlify Link 
-[https://funny-churros-0ef475.netlify.app/](https://ashiqueportfolio1.netlify.app/)
+[https://funny-churros-0ef475.netlify.app/]((https://ashique-portfolio1.netlify.app/))
 
 
 ## How To Use IT
